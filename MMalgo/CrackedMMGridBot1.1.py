@@ -207,7 +207,7 @@ class GridBot:
             logger.error(f"Grid order error: {str(e)}")
             raise
 
-    def place_take_profit_order(self, asset: str, markup_percentage: float = 0.15) -> None:
+    def place_take_profit_order(self, asset: str, markup_percentage: float = 0.20) -> None:
         """
         Create a limit sell reduce-only order based on the current open position.
         The order is placed at a price 'markup_percentage' above the open position's entry price.
@@ -245,7 +245,7 @@ class GridBot:
             raise
 
 def main():
-    address, info, exchange = setup(base_url=constants.TESTNET_API_URL, skip_ws=True)
+    address, info, exchange = setup(base_url=constants.MAINNET_API_URL, skip_ws=True)
     bot = GridBot(address, info, exchange)
     
     # Trading parameters
