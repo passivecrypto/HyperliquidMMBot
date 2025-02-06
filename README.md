@@ -47,6 +47,10 @@ Set parameters to 1 for arithmetic sequencing.
 -Dynamic and improved position management.
 and more!
 
-Stop loss feature is available soon but I recommend risk to be your account balance.
+-Improved Multicoin functionality
+
+-Stop loss feature
+
+
 
 
