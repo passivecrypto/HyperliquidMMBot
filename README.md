@@ -4,6 +4,8 @@ Hyperliquid API trading with Python.
 
 This bot will take orders and sell them at a profit for 20 basis points and repeat until you stop the bot.
 
+This project is about distilling years of trading experience into an automated and seemless experience.
+
 </div>
 
 ## Installation
@@ -38,7 +40,7 @@ New features:
 These features allow for improved risk management during increased market dislocation events. The Gridbot manages the drawdown better by utilizing geometric arrays in sizing and spacing.
 Set parameters to 1 for arithmetic sequencing.
 
-## New features coming soon
+## Roadmap
 
 -Grid for take profit structure
 
@@ -47,9 +49,13 @@ Set parameters to 1 for arithmetic sequencing.
 -Dynamic and improved position management.
 and more!
 
--Improved Multicoin functionality
+-Active grid management 
 
--Stop loss feature
+-Improved Multicoin functionality 
+
+-Stop loss feature for multi-asset portfolios
+
+-Dynamic risk management 
 
 
 
