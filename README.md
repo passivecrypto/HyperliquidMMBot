@@ -34,4 +34,15 @@ New features:
 : Spacing multiplier Each level's spacing will be x the previous
 
 These features allow for improved risk management during increased market dislocation events. The Gridbot manages the drawdown better by utilizing geometric arrays in sizing and spacing.
+Set parameters to 1 for arithmetic sequencing.
+
+## New features coming soon
+
+-Grid for take profit structure
+-Initial offset percentage to enable order block stalking.
+-Dynamic and improved position management.
+and more!
+
+Stop loss feature is available soon but I recommend risk to be your account balance.
+
 
