@@ -2,6 +2,8 @@
 An Industry Standard Bot
 Hyperliquid API trading with Python.
 
+This bot will take orders and sell them at a profit for 20 basis points and repeat until you stop the bot.
+
 </div>
 
 ## Installation
@@ -21,4 +23,15 @@ Set your desired settings in parameters
  
 ## Run the Bot
 
+
+## Updates
+2025-02-06 CrackedGridBot1.1 Has been released.
+
+New features:
+
+- Improved Trade side order functionality
+: Size multiplier Each level's size will be x the previous
+: Spacing multiplier Each level's spacing will be x the previous
+
+These features allow for improved risk management during increased market dislocation events. The Gridbot manages the drawdown better by utilizing geometric arrays in sizing and spacing.
 
