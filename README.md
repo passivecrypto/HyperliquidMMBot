@@ -11,6 +11,8 @@ This project is about distilling years of trading experience into an automated a
 ## Installation
 Create Virtual Environment
 
+Requires Python 3.11.9
+
 Install Requirements. 
 
 Generate a new API key for an API Wallet
