@@ -35,9 +35,9 @@ New features:
 
 - Improved Trade side order functionality
 
-: Size multiplier Each level's size will be x the previous
+- Size multiplier Each level's size will be x the previous
 
-: Spacing multiplier Each level's spacing will be x the previous
+- Spacing multiplier Each level's spacing will be x the previous
 
 These features allow for improved risk management during increased market dislocation events. The Gridbot manages the drawdown better by utilizing geometric arrays in sizing and spacing.
 Set parameters to 1 for arithmetic sequencing.
